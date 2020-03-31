@@ -1,6 +1,6 @@
 # Saolang_release
 
-Release repo of sao.
+Release repo of [saolang](https://search.ipaustralia.gov.au/trademarks/search/view/2000064) ®.
 
 # Spec
 
