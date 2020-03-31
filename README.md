@@ -13,13 +13,7 @@ SymbolList: [...Symbol_n]
 # example
 
 ```
-define(
-		fib(n)
-		if(lt(n,3),
-			1,
-			add(fib(sub(n,1)),fib(sub(n,2)))
-			)
-		)
+define(fib(n),if(lt(n,3),1,add(fib(sub(n,1)),fib(sub(n,2)))))
 
 fib(12)
 
