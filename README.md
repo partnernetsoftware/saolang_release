@@ -58,6 +58,19 @@ dMd /Nm` ~`   sMMN.    .NMMMMMMh.``Md:
                    `ohs               -                 
 ```
 
+# Feature
+
+* runtime less than 64KB
+* scripting external sharelib with ffi()
+* play like block toys
+
+# Plan
+
+* first release of runtime
+* bootstrap (self hosting)
+* ARM support
+* libsao to support customize native symbols
+
 # Author
 
 WeChat me:
