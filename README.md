@@ -5,8 +5,10 @@ Release repo of [SaoLang](https://search.ipaustralia.gov.au/trademarks/search/vi
 # Spec
 
 ```
-Expression: Symbol(...SymbolList)
-SymbolList: [...Symbol_n]
+Symbol(...Symbol)
+
+Yup, nothing else.
+
 ```
 
 # Quick Example
@@ -66,10 +68,13 @@ dMd /Nm` ~`   sMMN.    .NMMMMMMh.``Md:
 
 # Plan
 
-* first release of runtime
+* core runtime release
 * bootstrap (self hosting)
 * ARM support
+* binary snapshot plugin
+* gc plugin
 * libsao to support customize native symbols
+* eco system (package management etc)
 
 # Author
 
