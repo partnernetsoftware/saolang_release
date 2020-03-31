@@ -1,16 +1,15 @@
-# Saolang_release
+# About
 
-Release repo of [saolang](https://search.ipaustralia.gov.au/trademarks/search/view/2000064) ®.
+Release repo of [SaoLang](https://search.ipaustralia.gov.au/trademarks/search/view/2000064) ®.
 
 # Spec
 
 ```
 Expression: Symbol(...SymbolList)
 SymbolList: [...Symbol_n]
-
 ```
 
-# example
+# Quick Example
 
 ```
 define(fib(n),if(lt(n,3),1,add(fib(sub(n,1)),fib(sub(n,2)))))
@@ -20,7 +19,7 @@ fib(12)
 exit()
 ```
 
-# What is saolang?
+# What is SaoLang?
 
 A Very "Sao" Computer Language, which runtime < 64KB for LNX/OSX/WIN
 
@@ -59,8 +58,9 @@ dMd /Nm` ~`   sMMN.    .NMMMMMMh.``Md:
                    `ohs               -                 
 ```
 
-# author
+# Author
 
-	WeChat me:
+WeChat me:
 
 ![wx](wxqr.png)
+
