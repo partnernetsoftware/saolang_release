@@ -982,13 +982,13 @@ sao_object * sao_parse( SaoStream * fw, int do_eval )
 			break;
 		}
 		if (!is_NIL(obj)) {
-			sao_stdout("%llu: ",microtime());//TODO hide default option
+			//sao_stdout("%llu: ",microtime());//TODO hide default option
 			sao_out_expr("<=", obj);//TODO show only -i
 			sao_stdout("\n");//ditto
 
 			sao_object *rt = sao_eval(obj, GLOBAL);
 			if (do_eval){
-				sao_stdout("%llu: ",microtime());//TODO hide default
+				//sao_stdout("%llu: ",microtime());//TODO hide default
 				if ( !is_NIL(rt)) {
 					sao_out_expr("=>", rt);//TODO show only -i
 					sao_stdout("\n");//ditto
