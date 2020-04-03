@@ -2,6 +2,11 @@
 
 Release repo of [SaoLang](https://search.ipaustralia.gov.au/trademarks/search/view/2000064) ®.
 
+# Reference and Paper
+
+* https://en.wikipedia.org/wiki/CAR_and_CDR
+* https://en.wikipedia.org/wiki/S-expression
+
 # Spec
 
 ```
