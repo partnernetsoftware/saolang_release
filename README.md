@@ -1,6 +1,6 @@
 # About
 
-Release repo of [SaoLang](https://search.ipaustralia.gov.au/trademarks/search/view/2000064) ®.
+Release repo of [SaoLang](https://search.ipaustralia.gov.au/trademarks/search/view/2000064)
 
 # Reference and Paper
 
@@ -28,7 +28,7 @@ exit()
 
 # What is SaoLang?
 
-A Very "Sao" Computer Language, which runtime < 64KB for LNX/OSX/WIN
+A Very "Sao" Computer Language, which runtime < 64KB (no compress) for almost all platform/arch
 
 ```
                          :yyydmmmMMMh`                  
@@ -65,11 +65,12 @@ dMd /Nm` ~`   sMMN.    .NMMMMMMh.``Md:
                    `ohs               -                 
 ```
 
-# Feature
+# Current Feature
 
-* runtime less than 64KB
-* scripting external sharelib with ffi()
+* runtime less than 64KB (without upx)
+* scripting sharelib with ffi()
 * play like block toys
+* define your own syntax
 
 # Plan
 
